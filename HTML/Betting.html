@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Casino</title>
+        <link rel="stylesheet" href="../CSS/Betting.css">
+    </head>
+    <body>
+
+        <nav class="myNav">
+            <ul>
+                <li><a href="./Computer.html">PlayStation</a></li>
+                <li><a >UserGame</a></li>
+                <li><a href="./Password.html">Passwords</a></li>
+                <li><a href="./Calculator.html">Calculator</a></li>
+            </ul>
+        </nav>
+        <div id="container">
+            <div id="deposit">
+                <label>Deposit</label>
+                <input type="number" placeholder="Amount in KSH">
+                <button onclick="showBalance()">submit</button>
+                <input id="myBet" type="number" placeholder="Playing amount">
+                <span id="myBalance">Balance</span>
+                <span id="myResult">Won/Lost</span>
+            </div>
+            
+            <div id="machines">
+                <input type="number" placeholder="Prediction1">
+                <input type="number" placeholder="Prediction2">
+                <input type="number" placeholder="Prediction3">
+                <input type="number" placeholder="Prediction4">
+                <input type="number" placeholder="Prediction5">
+                <button onclick="showResult()">PlayGame</button>
+            </div>
+        </div>
+
+        <script src="../JAVASCRIPT/Betting.js"></script>
+    </body>
+</html>
