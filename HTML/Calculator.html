@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="../CSS/Calculator.css">
+    </head>
+    <body>
+        <nav class="myNav">
+            <ul>
+                <li><a href="./Computer.html">PlayStation</a></li>
+                <li><a href="./Betting.html">UserGame</a></li>
+                <li><a href="./Password.html">Passwords</a></li>
+                <li><a>Calculator</a></li>
+            </ul>
+        </nav>
+        <div id="container">
+            <div id="calculator">
+                <diV><input value="Result" readonly></diV>
+                <div>
+                    <button onclick="appendDisplay('1')">1</button>
+                    <button onclick="appendDisplay('2')">2</button>
+                    <button onclick="appendDisplay('3')">3</button>
+                    <button onclick="appendDisplay('4')">4</button>
+                </div>
+                <div>
+                    <button onclick="appendDisplay('+')">+</button>
+                    <button onclick="appendDisplay('5')">5</button>
+                    <button onclick="appendDisplay('6')">6</button>
+                    <button onclick="appendDisplay('7')">7</button>
+    
+                </div>
+                <div>
+                    <button onclick="appendDisplay('-')">-</button>
+                    <button onclick="appendDisplay('8')">8</button>
+                    <button onclick="appendDisplay('9')">9</button>
+                    <button onclick="appendDisplay('0')">0</button>
+                </div>
+                <div>
+                    <button onclick="clearDisplay()">C</button>
+                    <button onclick="appendDisplay('*')">*</button>
+                    <button onclick="appendDisplay('/')">/</button>
+                    <button onclick="appendDisplay('.')">.</button>
+                </div>
+                <div>
+                    <button onclick="appendDisplay('(')">(</button>
+                    <button onclick="appendDisplay(')')">)</button>
+                    <button onclick="appendDisplay('%')">%</button>
+                    <button onclick="showResult()">=</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="../JAVASCRIPT/Calculator.js"></script>
+    </body>
+</html>
