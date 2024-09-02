@@ -1,0 +1,80 @@
+
+.myNav{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+.myNav ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+.myNav li{
+    list-style: none;
+    text-align: center;
+}
+.myNav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+.myNav a:hover{
+    text-decoration: underline;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#container{
+    margin-top: 100px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(150, 110, 110);
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+}
+#user{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+#user label{
+    font-size: 3rem;
+    color: black;
+}
+#user input{
+    font-size: 1.5rem;
+    color: black;
+    border-style: solid;
+    padding: 20px;
+}
+#user button{
+    color: #fff;
+    background-color: hsl(240, 100%, 50%);
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    transition: ease 0.5s;
+}
+#user button:hover{
+    background: hsl(240, 100%, 60%);
+    padding: 20px 60px;
+}
+#myP{
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+}
